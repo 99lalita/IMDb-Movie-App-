@@ -15,6 +15,7 @@ export default async function MoviePage({ params }) {
             movie.backdrop_path || movie.poster_path
           }`}
           width={500}
+          alt="movie"
           height={300}
           className="rounded-lg"
           style={{ maxWidth: "100%", height: "100%" }}
